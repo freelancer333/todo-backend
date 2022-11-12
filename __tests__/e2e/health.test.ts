@@ -1,5 +1,5 @@
 import request from 'supertest'
-import App from '../../src/index-2'
+import App from '../../src'
 
 describe('GET / - health check', () => {
   it('Hello API Request', async () => {
