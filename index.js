@@ -4,6 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const app = express();
+app.disable("x-powered-by");
 const port = process.env.PORT;
 
 app.get("/", (req, res) => {
